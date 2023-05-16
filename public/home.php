@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBSITE</title>
+    <link rel="stylesheet" href="https://upkg.com/aos@2.3.1/dist/aos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
@@ -19,33 +20,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
-        <li class="nav-item">
-          <a class="nav-link active text-secondary fw-light" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu" aria-label;edby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Web Design</a></li>
-            <li><a class="dropdown-item" href="#">Programmer</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Multimedia Developer</a></li>
-          </ul>
-        </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Our Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-      </ul>
-    </div>
+    
   </div>
 </nav>
 
@@ -58,19 +33,19 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="image/n.jpg" class="image-flued w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
 
       </div>
     </div>
     <div class="carousel-item">
       <img src="image/e.jpg" class="image-fluid w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         
       </div>
     </div>
     <div class="carousel-item">
       <img src="image/a.jpg" class="image-fluid w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         
       </div>
     </div>
@@ -90,11 +65,11 @@
 <section class="about my-5">
     <div class="container">
         <div class="text-center my-5">
-            <h1 class="fst-italic text-center" >About<span class="text-primary fst-italic"> Me</span></h1>
+            <h1 class="fst-italic text-center" data-aos="fade-up">About<span class="text-primary fst-italic"> Me</span></h1>
             <hr / class="w-25 m-auto">
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos-offset="zoom-in" data-aos-offset="200">
                 <h1 class="fst-italic fs-2">What do you <span class="text-primary fst-italic"> want to know?</span></h1>
                 <p class="p-2">Information technology is responsible for such a large portion of our workforce, business operations and personal access to information that it comprises much of our daily activities.</p>
                 <button type="button" class="btn btn-light">More about me</button>
@@ -153,7 +128,7 @@
 
 <section class="services py-5 bg-light">
     <div class="container">
-        <div class="text-center my-5">
+        <div class="text-center my-5" data-aos="fade-up" data-aos-offset="200">
             <h1 class="fst-italic">Our <span class="text-primary fst-italic"> Services</span></h1>
             <hr / class="w-25 m-auto">
         </div>
@@ -240,7 +215,12 @@
 
 </section>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<script>
+  AOS.int();
+</script>
+
 </body>
 </html>
